@@ -1,11 +1,11 @@
 <!-- badges: start -->
-[![Version](https://img.shields.io/github/v/release/rapporteket/rapRegTemplate?sort=semver)](https://github.com/rapporteket/rapRegTemplate/releases)
-[![R build status](https://github.com/rapporteket/rapRegTemplate/workflows/R-CMD-check/badge.svg)](https://github.com/rapporteket/rapRegTemplate/actions)
-[![Codecov test coverage](https://codecov.io/gh/Rapporteket/rapRegTemplate/branch/main/graph/badge.svg)](https://codecov.io/gh/Rapporteket/rapRegTemplate?branch=main)
+[![Version](https://img.shields.io/github/v/release/skde-test/rapRegTemplate?sort=semver)](https://github.com/skde-test/rapRegTemplate/releases)
+[![R build status](https://github.com/skde-test/rapRegTemplate/workflows/R-CMD-check/badge.svg)](https://github.com/skde-test/rapRegTemplate/actions)
+[![Codecov test coverage](https://codecov.io/gh/skde-test/rapRegTemplate/branch/main/graph/badge.svg)](https://codecov.io/gh/skde-test/rapRegTemplate?branch=main)
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![GitHub open issues](https://img.shields.io/github/issues/rapporteket/rapRegTemplate.svg)](https://github.com/rapporteket/rapRegTemplate/issues)
+[![GitHub open issues](https://img.shields.io/github/issues/skde-test/rapRegTemplate.svg)](https://github.com/skde-test/rapRegTemplate/issues)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Doc](https://img.shields.io/badge/Doc--grey.svg)](https://rapporteket.github.io/rapRegTemplate/)
+[![Doc](https://img.shields.io/badge/Doc--grey.svg)](https://skde-test.github.io/rapRegTemplate/)
 <!-- badges: end -->
   
 # Lag et register i Rapporteket <img src="man/figures/logo.svg" align="right" height="150" />
@@ -15,7 +15,7 @@ Som en ekstra støtte anbefales [R pacakges](http://r-pkgs.had.co.nz/) av Hadley
 
 ## Prøv templatet
 
-1. Hent ned prosjektet [rapRegTemplate](https://github.com/Rapporteket/rapRegTemplate) (`git clone https://github.com/Rapporteket/rapRegTemplate.git` i en terminal).
+1. Hent ned prosjektet [rapRegTemplate](https://github.com/skde-test/rapRegTemplate) (`git clone https://github.com/skde-test/rapRegTemplate.git` i en terminal).
 1. Åpne prosjektet i RStudio (åpne fila `rapRegTemplate.Rproj`)
 1. Installér pakken (`devtools::install()`)
 1. Definer noen miljøvariabler (`source("dev/renv.R")`)
@@ -26,7 +26,7 @@ Som en ekstra støtte anbefales [R pacakges](http://r-pkgs.had.co.nz/) av Hadley
 
 Denne delen kan være relevant om det er ønskelig å benytte templatetet som utgangspunkt for etablering av nye registre på Rapporteket.
 
-1. Hent ned prosjektet [rapRegTemplate](https://github.com/Rapporteket/rapRegTemplate)
+1. Hent ned prosjektet [rapRegTemplate](https://github.com/skde-test/rapRegTemplate)
 2. Slett mappen `.git`
 3. Initiér nytt git-repositor 
 ```bash
